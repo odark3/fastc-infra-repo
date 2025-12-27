@@ -4,6 +4,6 @@ terraform {
     bucket  = "fastc-tfst1"
     key     = "terraform.state"
     region  = "ap-northeast-2"
-    profile = "fastc"
+    # profile = "fastc"
   }
 }

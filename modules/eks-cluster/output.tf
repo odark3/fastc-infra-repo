@@ -5,3 +5,7 @@ output "cluster_id" {
 output "cluster_primary_security_group_id" {
   value = module.eks.cluster_primary_security_group_id
 }
+
+output "cluster_endpoint" {
+  value = module.eks.cluster_endpoint
+}
